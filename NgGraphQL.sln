@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgGraphQL.Api", "NgGraphQL.Api\NgGraphQL.Api.csproj", "{49AC4EE1-3A6E-4A93-8F68-5CC28938AE32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgGraphQL.Domain", "..\..\NgGraphQL\NgGraphQL.Domain\NgGraphQL.Domain\NgGraphQL.Domain.csproj", "{15FE037B-D6B8-4D7C-BDE2-039B45E13412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgGraphQL.Persistence", "..\..\NgGraphQL\NgGraphQL.Persistence\NgGraphQL.Persistence\NgGraphQL.Persistence.csproj", "{ECDF0000-04EE-43E8-91BA-63D43A97FA28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgGraphQL.Service", "..\..\NgGraphQL\NgGraphQL.Service\NgGraphQL.Service\NgGraphQL.Service.csproj", "{1CB1C7AC-831A-40E1-BE6D-800EA26B714C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingAccount.Grpc", "..\..\NgGraphQL\Ng.Grpc\BillingAccount.Grpc\BillingAccount.Grpc.csproj", "{BF7E2815-2CDE-4ADA-A5D1-1E7354AB0E08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTest", "..\..\NgGraphQL\TestTest\TestTest\TestTest.csproj", "{362E7AC2-3322-4180-8F68-149B901E03F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49AC4EE1-3A6E-4A93-8F68-5CC28938AE32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49AC4EE1-3A6E-4A93-8F68-5CC28938AE32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49AC4EE1-3A6E-4A93-8F68-5CC28938AE32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49AC4EE1-3A6E-4A93-8F68-5CC28938AE32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15FE037B-D6B8-4D7C-BDE2-039B45E13412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15FE037B-D6B8-4D7C-BDE2-039B45E13412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15FE037B-D6B8-4D7C-BDE2-039B45E13412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15FE037B-D6B8-4D7C-BDE2-039B45E13412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECDF0000-04EE-43E8-91BA-63D43A97FA28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECDF0000-04EE-43E8-91BA-63D43A97FA28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECDF0000-04EE-43E8-91BA-63D43A97FA28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECDF0000-04EE-43E8-91BA-63D43A97FA28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CB1C7AC-831A-40E1-BE6D-800EA26B714C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB1C7AC-831A-40E1-BE6D-800EA26B714C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB1C7AC-831A-40E1-BE6D-800EA26B714C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB1C7AC-831A-40E1-BE6D-800EA26B714C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF7E2815-2CDE-4ADA-A5D1-1E7354AB0E08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF7E2815-2CDE-4ADA-A5D1-1E7354AB0E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF7E2815-2CDE-4ADA-A5D1-1E7354AB0E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF7E2815-2CDE-4ADA-A5D1-1E7354AB0E08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{362E7AC2-3322-4180-8F68-149B901E03F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{362E7AC2-3322-4180-8F68-149B901E03F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{362E7AC2-3322-4180-8F68-149B901E03F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{362E7AC2-3322-4180-8F68-149B901E03F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9A86CAC-A426-4A35-990C-06F1F39DB08B}
+	EndGlobalSection
+EndGlobal
